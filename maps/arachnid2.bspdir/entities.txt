@@ -1,0 +1,376 @@
+{
+"classname" "worldspawn"
+"message" "Arachnid 2 :: <3 JexJackL"
+}
+{
+"light" "15"
+"angle" "45"
+"classname" "info_player_intermission"
+"origin" "-312 -1136 240"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "792 -3216 -144"
+}
+{
+"spawnflags" "12"
+"dmg" "500"
+"classname" "trigger_hurt"
+"model" "*1"
+}
+{
+"angle" "200"
+"origin" "792 -3360 -8"
+"classname" "team_alien_overmind"
+}
+{
+"classname" "func_timer"
+"origin" "-88 -60 52"
+"target" "t2"
+"wait" "1"
+"random" ".75"
+"spawnflags" "1"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "misc_particle_system"
+"origin" "320 -2812 344"
+"psName" "arachnid2/spark1"
+"targetname" "sparker1"
+}
+{
+"spawnflags" "1"
+"random" ".75"
+"wait" "1"
+"target" "sparker1"
+"origin" "376 -2816 376"
+"classname" "func_timer"
+}
+{
+"angle" "45"
+"origin" "-312 -1136 216"
+"classname" "info_human_intermission"
+}
+{
+"angle" "45"
+"origin" "-312 -1136 196"
+"classname" "info_alien_intermission"
+}
+{
+"classname" "misc_particle_system"
+"origin" "352 456 64"
+"psName" "arachnid2/steam1"
+}
+{
+"origin" "-216 8 -82"
+"classname" "team_human_spawn"
+}
+{
+"classname" "team_human_spawn"
+"origin" "24 -72 -82"
+}
+{
+"classname" "team_human_spawn"
+"origin" "-160 -280 -82"
+}
+{
+"classname" "team_human_reactor"
+"origin" "-188 -88 -72"
+}
+{
+"classname" "team_human_armoury"
+"origin" "24 -160 -72"
+"angle" "90"
+}
+{
+"classname" "team_human_medistat"
+"origin" "24 -240 -80"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "184 -560 -36"
+}
+{
+"origin" "184 -440 -36"
+"classname" "team_human_mgturret"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-456 -360 -64"
+"angle" "90"
+}
+{
+"origin" "-600 -360 -64"
+"classname" "team_human_mgturret"
+"angle" "90"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-56 8 -64"
+"angle" "180"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"classname" "misc_particle_system"
+"origin" "-176 -152 56"
+"psName" "arachnid2/spark2"
+"targetname" "t2"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "1000 -3336 -8"
+}
+{
+"origin" "832 -3072 -8"
+"classname" "team_alien_spawn"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "1024 -3432 40"
+}
+{
+"origin" "1000 -3072 40"
+"classname" "team_alien_acid_tube"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "1232 -3064 -96"
+}
+{
+"origin" "632 -3720 -96"
+"classname" "team_alien_acid_tube"
+}
+{
+"origin" "448 -2896 -112"
+"classname" "team_alien_acid_tube"
+}
+{
+"origin" "1112 -3640 -96"
+"classname" "team_alien_acid_tube"
+}
+{
+"psName" "arachnid2/steam2"
+"origin" "-940 -3704 508"
+"classname" "misc_particle_system"
+}
+{
+"classname" "info_null"
+"origin" "2160 -2816 -48"
+"targetname" "t3"
+}
+{
+"classname" "info_null"
+"origin" "2160 -2624 -48"
+"targetname" "t5"
+}
+{
+"classname" "info_null"
+"origin" "2160 -3008 -48"
+"targetname" "t4"
+}
+{
+"angle" "90.000000"
+"message" "^5^5Human Entrance^7"
+"origin" "905.941833 -692.752441 -15.874166"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^5^5Human Base^7"
+"origin" "-76.297462 -52.623474 -22.557846"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^5^5Human Upper Base^7"
+"origin" "-91.438248 244.040283 240.698242"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^5^5Human Top Entrance^7"
+"origin" "-690.733337 -587.880005 236.125397"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Crate Room^7"
+"origin" "-1436.951416 -1690.109741 270.668091"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Crate Room Platform^7"
+"origin" "-1422.852783 -1554.503540 660.632080"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^1^1Alien Main Entrance^7"
+"origin" "-620.959106 -3910.442871 271.744751"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Stairs^7"
+"origin" "-84.931305 -2961.943848 129.935150"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Vents^7"
+"origin" "349.207916 -2900.332275 261.586823"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Pipes^7"
+"origin" "1460.056274 -2240.361816 212.125595"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Pipes^7"
+"origin" "477.770538 -2489.194092 292.125000"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Pipes^7"
+"origin" "-519.571411 -2173.219238 292.125000"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Pipe Maitenance^7"
+"origin" "-658.706116 -956.448425 508.125000"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Crate Room^7"
+"origin" "-1371.199829 -1188.833008 282.567688"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Ledge^7"
+"origin" "-698.795715 -1080.961182 292.211853"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Double Hall^7"
+"origin" "-101.913399 -1277.915527 -30.936710"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Red Hall^7"
+"origin" "636.478333 -2101.422119 -43.863640"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Suicide^7"
+"origin" "1707.875000 -2114.125000 -272.428375"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Hall^7"
+"origin" "1395.633423 -2066.474609 -49.905724"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Hall^7"
+"origin" "1745.754150 -2588.072510 -37.212543"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Hall^7"
+"origin" "853.209045 -2554.780273 -51.327091"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Hall^7"
+"origin" "292.073700 -2507.567871 -51.874924"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Hall^7"
+"origin" "-429.833649 -2450.334961 -51.874897"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Hall^7"
+"origin" "-529.297119 -1834.511108 -51.873425"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Hall^7"
+"origin" "-506.616119 -1176.563110 -51.874084"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Hall^7"
+"origin" "1321.724243 -2498.929932 -28.657101"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^1^1Alien Side Entrance^7"
+"origin" "2203.503906 -2860.718506 -51.722095"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^1^1Alien Base^7"
+"origin" "1651.079956 -3905.249023 -141.692169"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Vents Entryway^7"
+"origin" "-186.825287 -3511.608398 276.215759"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Pipes^7"
+"origin" "1683.460571 -2518.041016 323.102325"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Pipes^7"
+"origin" "909.608704 -2503.165283 292.125244"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Pipes^7"
+"origin" "-123.254944 -2543.269531 298.803345"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Pipes^7"
+"origin" "-564.863647 -1571.419556 338.192902"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^7Pipes^7"
+"origin" "1451.587280 -1752.460083 216.124786"
+"classname" "target_location"
+}
