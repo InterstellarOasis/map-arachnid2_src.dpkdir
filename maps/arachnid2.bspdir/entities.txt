@@ -1,6 +1,7 @@
 {
 "classname" "worldspawn"
 "message" "Arachnid 2 :: <3 JexJackL"
+"colorGrade" "gfx/arachnid2/colorgrading"
 }
 {
 "light" "15"
