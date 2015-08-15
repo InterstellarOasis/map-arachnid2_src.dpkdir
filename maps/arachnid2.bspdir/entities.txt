@@ -1,7 +1,7 @@
 {
 "classname" "worldspawn"
 "message" "Arachnid 2 :: <3 JexJackL"
-"colorGrade" "gfx/arachnid2/colorgrading"
+"gradingTexture" "gfx/arachnid2/colorgrading"
 }
 {
 "light" "15"
@@ -28,7 +28,6 @@
 "classname" "func_timer"
 "origin" "-88 -60 52"
 "target" "t2"
-"wait" "1"
 "wait" ".75"
 "spawnflags" "1"
 }
@@ -43,7 +42,6 @@
 {
 "spawnflags" "1"
 "wait" ".75"
-"wait" "1"
 "target" "sparker1"
 "origin" "376 -2816 376"
 "classname" "func_timer"
