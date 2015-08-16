@@ -1,7 +1,7 @@
 Arachnid 2
 ----------
 
-This is a map ported from the [Tremulous](http://tremulous.net/) game to the [Unvanquished](https://www.unvanquished.net/) game.
+This is a map ported from the [Tremulous](http://tremulous.net/) game to the [Unvanquished](https://www.unvanquished.net/) game. It features combat in the ruins of a former industrial warehouse now turned into an alien spawning ground.
 
 Ported from Tremulous gpp package from [http://ingar.satgnu.net/files/tremulous/base/](http://ingar.satgnu.net/files/tremulous/base/).
 
@@ -64,6 +64,7 @@ Textures & Shaders:
 Special thanks:
 
 * Stijn “Ingar“ Buys <ingar@osirion.org>
+* Dan “kharnov” Floda
 
 Legal
 -----
@@ -80,5 +81,6 @@ http://creativecommons.org/licenses/by-sa/4.0/
 History
 -------
 
+* 2015-08-16:	Arachnid 2 1.2 (Unvanquished community map)
 * 2009-12-04:	Tremulous 1.2 Beta (Gameplay preview)
 * 2006-03-31:	Tremulous 1.1.0 (Standalone)
