@@ -1,0 +1,2 @@
+keep maps/arachnid2.map
+ignore meta/arachnid2/arachnid2_web.jpg
