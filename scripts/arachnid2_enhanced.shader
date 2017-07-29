@@ -31,7 +31,7 @@ textures/arachnid2/neon_white
 	qer_editorimage textures/arachnid2/neon_white_d
 	q3map_lightImage textures/arachnid2/neon_white_g
 	q3map_surfaceLight 3900
-	q3map_backSplash 5 30
+	q3map_backSplash 22 33
 	q3map_lightmapFilterRadius 0 20
 	diffuseMap textures/arachnid2/neon_white_d
 	glowMap textures/arachnid2/neon_white_g
