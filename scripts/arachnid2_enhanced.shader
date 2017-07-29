@@ -1,24 +1,17 @@
 textures/arachnid2/sky
 {
 	qer_editorimage textures/transit/shaderlab_terrain_sky_arc_masked
-
 	q3map_sunExt 1 1 1 140 -35 25 2 1
-
+//  pointlights had: 0.8 0.9 1.0
 	q3map_lightRGB 0.7 0.8 1.0
-// pointlights
-//	q3map_lightRGB 0.8 0.9 1.0
 	q3map_lightmapFilterRadius 0 64
 	q3map_skyLight 350 5
-
 	surfaceparm sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
-
 	skyparms env/arachnid2/sky 1024 -
-
 	nopicmip
 	nomipmaps
-
 	{
 		map textures/arachnid2/sky_clouds
 		tcMod scale 3 3
@@ -32,7 +25,6 @@ textures/arachnid2/sky
 		rgbGen identityLighting
 	}
 }
-
 
 textures/arachnid2/neon_white
 {
