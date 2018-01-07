@@ -66,12 +66,23 @@ textures/arachnid2/rectanglelight_white
 	glowMap textures/arachnid2/rectanglelight_white_g
 }
 
-textures/arachnid2/rectanglelight_white_high
+textures/arachnid2/rectanglelight_white_medium
 {
 	qer_editorimage textures/arachnid2/rectanglelight_white_d
 	q3map_lightImage textures/arachnid2/rectangle_light_white_g
 	q3map_surfaceLight 10000
 	q3map_backSplash 5 23
+	q3map_lightmapFilterRadius 0 20
+	diffuseMap textures/arachnid2/rectanglelight_white_d
+	glowMap textures/arachnid2/rectanglelight_white_g
+}
+
+textures/arachnid2/rectanglelight_white_high
+{
+	qer_editorimage textures/arachnid2/rectanglelight_white_d
+	q3map_lightImage textures/arachnid2/rectangle_light_white_g
+	q3map_surfaceLight 9000
+	q3map_backSplash 25 10
 	q3map_lightmapFilterRadius 0 20
 	diffuseMap textures/arachnid2/rectanglelight_white_d
 	glowMap textures/arachnid2/rectanglelight_white_g
@@ -235,7 +246,7 @@ textures/arachnid2/rectanglelight_red_very_high
 	qer_editorimage textures/arachnid2/rectanglelight_red_d
 	q3map_lightRGB 1 0 0
 	q3map_surfaceLight 50000
-	q3map_backSplash 20 23
+	q3map_backSplash 25 22
 	q3map_lightmapFilterRadius 0 20
 	diffuseMap textures/arachnid2/rectanglelight_red_d
 	glowMap textures/arachnid2/rectanglelight_red_g
