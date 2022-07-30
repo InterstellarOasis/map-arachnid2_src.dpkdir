@@ -1,6 +1,0 @@
-[_init_]
-extend = "${game}"
-
-[dir]
-source = "textures/arachnid2_trak5_src"
-preview = "textures/arachnid2_trak5_src"
