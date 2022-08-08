@@ -34,8 +34,8 @@ textures/arachnid2_custom/neon_white
 {
 	qer_editorimage textures/arachnid2_custom_src/neon_white_d
 	q3map_lightImage textures/arachnid2_custom_src/neon_white_a
-	q3map_surfaceLight 3900
-	q3map_backSplash 18 33
+	q3map_surfaceLight 3000
+	q3map_backSplash 18 13
 	q3map_lightmapFilterRadius 0 20
 	{
 		diffuseMap textures/arachnid2_custom_src/neon_white_d
@@ -47,8 +47,8 @@ textures/arachnid2_custom/neon_white_high
 {
 	qer_editorimage textures/arachnid2_custom_src/neon_white_d
 	q3map_lightImage textures/arachnid2_custom_src/neon_white_a
-	q3map_surfaceLight 8000
-	q3map_backSplash 18 43
+	q3map_surfaceLight 9000
+	q3map_backSplash 18 23
 	q3map_lightmapFilterRadius 0 20
 	{
 		diffuseMap textures/arachnid2_custom_src/neon_white_d
@@ -62,7 +62,7 @@ textures/arachnid2_custom/neon_white_very_high
 	q3map_lightImage textures/arachnid2_custom_src/neon_white_a
 	q3map_surfaceLight 10000
 	q3map_bounceScale 1.6
-	q3map_backSplash 18 43
+	q3map_backSplash 18 23
 	q3map_lightmapFilterRadius 0 20
 	{
 		diffuseMap textures/arachnid2_custom_src/neon_white_d
@@ -96,7 +96,7 @@ textures/arachnid2_custom/rectanglelight_white_medium
 {
 	qer_editorimage textures/arachnid2_custom_src/rectanglelight_white_d
 	q3map_lightImage textures/arachnid2_custom_src/rectangle_light_white_a
-	q3map_surfaceLight 10000
+	q3map_surfaceLight 6000
 	q3map_backSplash 5 23
 	q3map_lightmapFilterRadius 0 20
 	{
@@ -109,7 +109,7 @@ textures/arachnid2_custom/rectanglelight_white_high
 {
 	qer_editorimage textures/arachnid2_custom_src/rectanglelight_white_d
 	q3map_lightImage textures/arachnid2_custom_src/rectangle_light_white_a
-	q3map_surfaceLight 9000
+	q3map_surfaceLight 7000
 	q3map_backSplash 25 10
 	q3map_lightmapFilterRadius 0 20
 	{
@@ -123,7 +123,7 @@ textures/arachnid2_custom/squarelight_beige
 {
 	qer_editorimage textures/arachnid2_custom_src/squarelight_beige_d
 	q3map_lightRGB .9 .9 .8
-	q3map_surfaceLight 14000
+	q3map_surfaceLight 12000
 	q3map_backSplash 10 23
 	q3map_lightmapFilterRadius 0 20
 	{
@@ -136,7 +136,7 @@ textures/arachnid2_custom/squarelight_beige_low
 {
 	qer_editorimage textures/arachnid2_custom_src/squarelight_beige_d
 	q3map_lightRGB .9 .9 .8
-	q3map_surfaceLight 12000
+	q3map_surfaceLight 10000
 	q3map_backSplash 5 19
 	q3map_lightmapFilterRadius 0 20
 	{
@@ -149,7 +149,7 @@ textures/arachnid2_custom/squarelight_beige_high
 {
 	qer_editorimage textures/arachnid2_custom_src/squarelight_beige_d
 	q3map_lightRGB .9 .9 .8
-	q3map_surfaceLight 56000
+	q3map_surfaceLight 50000
 	q3map_backSplash 12 30
 	q3map_lightmapFilterRadius 0 20
 	{
@@ -264,7 +264,7 @@ textures/arachnid2_custom/rectanglelight_red_low
 {
 	qer_editorimage textures/arachnid2_custom_src/rectanglelight_red_d
 	q3map_lightRGB 6 0 0
-	q3map_surfaceLight 1300
+	q3map_surfaceLight 300
 	q3map_backSplash 10 23
 	q3map_lightmapFilterRadius 0 20
 	{
