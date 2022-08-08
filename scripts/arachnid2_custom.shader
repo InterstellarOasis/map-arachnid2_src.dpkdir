@@ -6,7 +6,7 @@ textures/arachnid2_custom/sky
 {
 	qer_editorimage textures/transit/shaderlab_terrain_sky_arc_masked
 	q3map_sunExt 1 1 1 140 -35 25 2 1
-//  pointlights had: 0.8 0.9 1.0
+	// pointlights had: 0.8 0.9 1.0
 	q3map_lightRGB 0.7 0.8 1.0
 	q3map_lightmapFilterRadius 0 64
 	q3map_skyLight 350 5
@@ -37,8 +37,10 @@ textures/arachnid2_custom/neon_white
 	q3map_surfaceLight 3900
 	q3map_backSplash 18 33
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/neon_white_d
-	glowMap textures/arachnid2_custom_src/neon_white_a
+	{
+		diffuseMap textures/arachnid2_custom_src/neon_white_d
+		glowMap textures/arachnid2_custom_src/neon_white_a
+	}
 }
 
 textures/arachnid2_custom/neon_white_high
@@ -48,8 +50,10 @@ textures/arachnid2_custom/neon_white_high
 	q3map_surfaceLight 8000
 	q3map_backSplash 18 43
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/neon_white_d
-	glowMap textures/arachnid2_custom_src/neon_white_a
+	{
+		diffuseMap textures/arachnid2_custom_src/neon_white_d
+		glowMap textures/arachnid2_custom_src/neon_white_a
+	}
 }
 
 textures/arachnid2_custom/neon_white_very_high
@@ -60,14 +64,18 @@ textures/arachnid2_custom/neon_white_very_high
 	q3map_bounceScale 1.6
 	q3map_backSplash 18 43
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/neon_white_d
-	glowMap textures/arachnid2_custom_src/neon_white_a
+	{
+		diffuseMap textures/arachnid2_custom_src/neon_white_d
+		glowMap textures/arachnid2_custom_src/neon_white_a
+	}
 }
 
 textures/arachnid2_custom/neon_white_broken
 {
 	qer_editorimage textures/arachnid2_custom_src/neon_white_d
-	diffuseMap textures/arachnid2_custom_src/neon_white_d
+	{
+		diffuseMap textures/arachnid2_custom_src/neon_white_d
+	}
 }
 
 // e6horzlight
@@ -78,8 +86,10 @@ textures/arachnid2_custom/rectanglelight_white
 	q3map_surfaceLight 3900
 	q3map_backSplash 5 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/rectanglelight_white_d
-	glowMap textures/arachnid2_custom_src/rectanglelight_white_a
+	{
+		diffuseMap textures/arachnid2_custom_src/rectanglelight_white_d
+		glowMap textures/arachnid2_custom_src/rectanglelight_white_a
+	}
 }
 
 textures/arachnid2_custom/rectanglelight_white_medium
@@ -89,8 +99,10 @@ textures/arachnid2_custom/rectanglelight_white_medium
 	q3map_surfaceLight 10000
 	q3map_backSplash 5 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/rectanglelight_white_d
-	glowMap textures/arachnid2_custom_src/rectanglelight_white_a
+	{
+		diffuseMap textures/arachnid2_custom_src/rectanglelight_white_d
+		glowMap textures/arachnid2_custom_src/rectanglelight_white_a
+	}
 }
 
 textures/arachnid2_custom/rectanglelight_white_high
@@ -100,8 +112,10 @@ textures/arachnid2_custom/rectanglelight_white_high
 	q3map_surfaceLight 9000
 	q3map_backSplash 25 10
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/rectanglelight_white_d
-	glowMap textures/arachnid2_custom_src/rectanglelight_white_a
+	{
+		diffuseMap textures/arachnid2_custom_src/rectanglelight_white_d
+		glowMap textures/arachnid2_custom_src/rectanglelight_white_a
+	}
 }
 
 // e8tinylight
@@ -112,8 +126,10 @@ textures/arachnid2_custom/squarelight_beige
 	q3map_surfaceLight 14000
 	q3map_backSplash 10 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/squarelight_beige_d
-	glowMap textures/arachnid2_custom_src/squarelight_beige_a
+	{
+		diffuseMap textures/arachnid2_custom_src/squarelight_beige_d
+		glowMap textures/arachnid2_custom_src/squarelight_beige_a
+	}
 }
 
 textures/arachnid2_custom/squarelight_beige_low
@@ -123,8 +139,10 @@ textures/arachnid2_custom/squarelight_beige_low
 	q3map_surfaceLight 12000
 	q3map_backSplash 5 19
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/squarelight_beige_d
-	glowMap textures/arachnid2_custom_src/squarelight_beige_a
+	{
+		diffuseMap textures/arachnid2_custom_src/squarelight_beige_d
+		glowMap textures/arachnid2_custom_src/squarelight_beige_a
+	}
 }
 
 textures/arachnid2_custom/squarelight_beige_high
@@ -134,14 +152,18 @@ textures/arachnid2_custom/squarelight_beige_high
 	q3map_surfaceLight 56000
 	q3map_backSplash 12 30
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/squarelight_beige_d
-	glowMap textures/arachnid2_custom_src/squarelight_beige_a
+	{
+		diffuseMap textures/arachnid2_custom_src/squarelight_beige_d
+		glowMap textures/arachnid2_custom_src/squarelight_beige_a
+	}
 }
 
 textures/arachnid2_custom/squarelight_beige_broken
 {
 	qer_editorimage textures/arachnid2_custom_src/squarelight_beige_d
-	diffuseMap textures/arachnid2_custom_src/squarelight_beige_d
+	{
+		diffuseMap textures/arachnid2_custom_src/squarelight_beige_d
+	}
 }
 
 // cubelight_32_red
@@ -152,8 +174,10 @@ textures/arachnid2_custom/cubelight_red
 	q3map_surfaceLight 20000
 	q3map_backSplash 10 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/cubelight_red_d
-	glowMap textures/arachnid2_custom_src/cubelight_red_a
+	{
+		diffuseMap textures/arachnid2_custom_src/cubelight_red_d
+		glowMap textures/arachnid2_custom_src/cubelight_red_a
+	}
 }
 
 textures/arachnid2_custom/cubelight_red_low
@@ -163,8 +187,10 @@ textures/arachnid2_custom/cubelight_red_low
 	q3map_surfaceLight 10000
 	q3map_backSplash 10 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/cubelight_red_d
-	glowMap textures/arachnid2_custom_src/cubelight_red_a
+	{
+		diffuseMap textures/arachnid2_custom_src/cubelight_red_d
+		glowMap textures/arachnid2_custom_src/cubelight_red_a
+	}
 }
 
 textures/arachnid2_custom/cubelight_red_very_low
@@ -174,8 +200,10 @@ textures/arachnid2_custom/cubelight_red_very_low
 	q3map_surfaceLight 7000
 	q3map_backSplash 10 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/cubelight_red_d
-	glowMap textures/arachnid2_custom_src/cubelight_red_a
+	{
+		diffuseMap textures/arachnid2_custom_src/cubelight_red_d
+		glowMap textures/arachnid2_custom_src/cubelight_red_a
+	}
 }
 
 textures/arachnid2_custom/cubelight_red_high
@@ -185,8 +213,10 @@ textures/arachnid2_custom/cubelight_red_high
 	q3map_surfaceLight 50000
 	q3map_backSplash 10 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/cubelight_red_d
-	glowMap textures/arachnid2_custom_src/cubelight_red_a
+	{
+		diffuseMap textures/arachnid2_custom_src/cubelight_red_d
+		glowMap textures/arachnid2_custom_src/cubelight_red_a
+	}
 }
 
 // cubelight_32_blue
@@ -197,8 +227,10 @@ textures/arachnid2_custom/cubelight_blue
 	q3map_surfaceLight 9000
 	q3map_backSplash 10 10
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/cubelight_blue_d
-	glowMap textures/arachnid2_custom_src/cubelight_blue_a
+	{
+		diffuseMap textures/arachnid2_custom_src/cubelight_blue_d
+		glowMap textures/arachnid2_custom_src/cubelight_blue_a
+	}
 }
 
 textures/arachnid2_custom/cubelight_blue_low
@@ -208,8 +240,10 @@ textures/arachnid2_custom/cubelight_blue_low
 	q3map_surfaceLight 10000
 	q3map_backSplash 10 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/cubelight_blue_d
-	glowMap textures/arachnid2_custom_src/cubelight_blue_a
+	{
+		diffuseMap textures/arachnid2_custom_src/cubelight_blue_d
+		glowMap textures/arachnid2_custom_src/cubelight_blue_a
+	}
 }
 
 // e6basicstrip_red
@@ -220,8 +254,10 @@ textures/arachnid2_custom/rectanglelight_red
 	q3map_surfaceLight 6000
 	q3map_backSplash 10 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/rectanglelight_red_d
-	glowMap textures/arachnid2_custom_src/rectanglelight_red_a
+	{
+		diffuseMap textures/arachnid2_custom_src/rectanglelight_red_d
+		glowMap textures/arachnid2_custom_src/rectanglelight_red_a
+	}
 }
 
 textures/arachnid2_custom/rectanglelight_red_low
@@ -231,8 +267,10 @@ textures/arachnid2_custom/rectanglelight_red_low
 	q3map_surfaceLight 1300
 	q3map_backSplash 10 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/rectanglelight_red_d
-	glowMap textures/arachnid2_custom_src/rectanglelight_red_a
+	{
+		diffuseMap textures/arachnid2_custom_src/rectanglelight_red_d
+		glowMap textures/arachnid2_custom_src/rectanglelight_red_a
+	}
 }
 
 textures/arachnid2_custom/rectanglelight_red_medium
@@ -242,8 +280,10 @@ textures/arachnid2_custom/rectanglelight_red_medium
 	q3map_surfaceLight 10000
 	q3map_backSplash 10 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/rectanglelight_red_d
-	glowMap textures/arachnid2_custom_src/rectanglelight_red_a
+	{
+		diffuseMap textures/arachnid2_custom_src/rectanglelight_red_d
+		glowMap textures/arachnid2_custom_src/rectanglelight_red_a
+	}
 }
 
 textures/arachnid2_custom/rectanglelight_red_high
@@ -253,8 +293,10 @@ textures/arachnid2_custom/rectanglelight_red_high
 	q3map_surfaceLight 35000
 	q3map_backSplash 20 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/rectanglelight_red_d
-	glowMap textures/arachnid2_custom_src/rectanglelight_red_a
+	{
+		diffuseMap textures/arachnid2_custom_src/rectanglelight_red_d
+		glowMap textures/arachnid2_custom_src/rectanglelight_red_a
+	}
 }
 
 textures/arachnid2_custom/rectanglelight_red_very_high
@@ -264,8 +306,10 @@ textures/arachnid2_custom/rectanglelight_red_very_high
 	q3map_surfaceLight 50000
 	q3map_backSplash 25 22
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/rectanglelight_red_d
-	glowMap textures/arachnid2_custom_src/rectanglelight_red_a
+	{
+		diffuseMap textures/arachnid2_custom_src/rectanglelight_red_d
+		glowMap textures/arachnid2_custom_src/rectanglelight_red_a
+	}
 }
 
 // zdetlig04yb_s
@@ -277,37 +321,43 @@ textures/arachnid2_custom/roundlamp
 	q3map_surfaceLight 6000
 	q3map_backSplash 10 23
 	q3map_lightmapFilterRadius 0 20
-	diffuseMap textures/arachnid2_custom_src/roundlamp_d
-	glowMap textures/arachnid2_custom_src/roundlamp_a
+	{
+		diffuseMap textures/arachnid2_custom_src/roundlamp_d
+		glowMap textures/arachnid2_custom_src/roundlamp_a
+	}
 }
 textures/arachnid2_custom/big_blue_cement_upscaled
 {
 	qer_editorImage     textures/arachnid2_custom_src/big_blue_cement_upscaled_d
-
-	diffuseMap          textures/arachnid2_custom_src/big_blue_cement_upscaled_d
-	normalMap           textures/arachnid2_custom_src/big_blue_cement_upscaled_n
+	{
+		diffuseMap          textures/arachnid2_custom_src/big_blue_cement_upscaled_d
+		normalMap           textures/arachnid2_custom_src/big_blue_cement_upscaled_n
+	}
 }
 
 textures/arachnid2_custom/crate_upscaled
 {
 	qer_editorImage     textures/arachnid2_custom_src/crate_upscaled_d
-
-	diffuseMap          textures/arachnid2_custom_src/crate_upscaled_d
-	normalMap           textures/arachnid2_custom_src/crate_upscaled_n
+	{
+		diffuseMap          textures/arachnid2_custom_src/crate_upscaled_d
+		normalMap           textures/arachnid2_custom_src/crate_upscaled_n
+	}
 }
 
 textures/arachnid2_custom/flat_dk_upscaled
 {
 	qer_editorImage     textures/arachnid2_custom_src/flat_dk_upscaled_d
-
-	diffuseMap          textures/arachnid2_custom_src/flat_dk_upscaled_d
-	normalMap           textures/arachnid2_custom_src/flat_dk_upscaled_n
+	{
+		diffuseMap          textures/arachnid2_custom_src/flat_dk_upscaled_d
+		normalMap           textures/arachnid2_custom_src/flat_dk_upscaled_n
+	}
 }
 
 textures/arachnid2_custom/rock_weathered_10_grey
 {
 	qer_editorImage     textures/arachnid2_custom_src/rock_weathered_10_grey_d
-
-	diffuseMap          textures/arachnid2_custom_src/rock_weathered_10_grey_d
-	normalMap           textures/arachnid2_custom_src/rock_weathered_10_grey_n
+	{
+		diffuseMap          textures/arachnid2_custom_src/rock_weathered_10_grey_d
+		normalMap           textures/arachnid2_custom_src/rock_weathered_10_grey_n
+	}
 }
