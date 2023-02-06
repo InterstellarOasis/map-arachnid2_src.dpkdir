@@ -1,6 +1,4 @@
-// --------------------
 // textures/arachnid2_custom
-// --------------------
 
 textures/arachnid2_custom/sky
 {
@@ -328,36 +326,36 @@ textures/arachnid2_custom/roundlamp
 }
 textures/arachnid2_custom/big_blue_cement_upscaled
 {
-	qer_editorImage     textures/arachnid2_custom_src/big_blue_cement_upscaled_d
+	qer_editorImage textures/arachnid2_custom_src/big_blue_cement_upscaled_d
 	{
-		diffuseMap          textures/arachnid2_custom_src/big_blue_cement_upscaled_d
-		normalMap           textures/arachnid2_custom_src/big_blue_cement_upscaled_n
+		diffuseMap textures/arachnid2_custom_src/big_blue_cement_upscaled_d
+		normalMap textures/arachnid2_custom_src/big_blue_cement_upscaled_n
 	}
 }
 
 textures/arachnid2_custom/crate_upscaled
 {
-	qer_editorImage     textures/arachnid2_custom_src/crate_upscaled_d
+	qer_editorImage textures/arachnid2_custom_src/crate_upscaled_d
 	{
-		diffuseMap          textures/arachnid2_custom_src/crate_upscaled_d
-		normalMap           textures/arachnid2_custom_src/crate_upscaled_n
+		diffuseMap textures/arachnid2_custom_src/crate_upscaled_d
+		normalMap textures/arachnid2_custom_src/crate_upscaled_n
 	}
 }
 
 textures/arachnid2_custom/flat_dk_upscaled
 {
-	qer_editorImage     textures/arachnid2_custom_src/flat_dk_upscaled_d
+	qer_editorImage textures/arachnid2_custom_src/flat_dk_upscaled_d
 	{
-		diffuseMap          textures/arachnid2_custom_src/flat_dk_upscaled_d
-		normalMap           textures/arachnid2_custom_src/flat_dk_upscaled_n
+		diffuseMap textures/arachnid2_custom_src/flat_dk_upscaled_d
+		normalMap textures/arachnid2_custom_src/flat_dk_upscaled_n
 	}
 }
 
 textures/arachnid2_custom/rock_weathered_10_grey
 {
-	qer_editorImage     textures/arachnid2_custom_src/rock_weathered_10_grey_d
+	qer_editorImage textures/arachnid2_custom_src/rock_weathered_10_grey_d
 	{
-		diffuseMap          textures/arachnid2_custom_src/rock_weathered_10_grey_d
-		normalMap           textures/arachnid2_custom_src/rock_weathered_10_grey_n
+		diffuseMap textures/arachnid2_custom_src/rock_weathered_10_grey_d
+		normalMap textures/arachnid2_custom_src/rock_weathered_10_grey_n
 	}
 }
