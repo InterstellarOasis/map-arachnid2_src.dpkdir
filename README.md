@@ -66,6 +66,10 @@ Special thanks:
 * Stijn “Ingar“ Buys <ingar@osirion.org>
 * Dan “kharnov” Floda
 
+Hommage:
+
+* JexJackL
+
 Legal
 -----
 

@@ -1,5 +1,6 @@
 {
-	map			"arachnid2"
-	longname	"Arachnid 2"
-	type		"tremulous"
+	map "arachnid2"
+	longname "Arachnid 2"
+	author "OverFlow"
+	type "tremulous"
 }
