@@ -34,6 +34,7 @@ textures/arachnid2_custom/neon_white
 	q3map_lightImage textures/arachnid2_custom_src/neon_white_a
 	q3map_surfaceLight 3000
 	q3map_backSplash 18 13
+	q3map_lightSubdivide 10
 	q3map_lightmapFilterRadius 0 20
 	{
 		diffuseMap textures/arachnid2_custom_src/neon_white_d
@@ -47,6 +48,7 @@ textures/arachnid2_custom/neon_white_high
 	q3map_lightImage textures/arachnid2_custom_src/neon_white_a
 	q3map_surfaceLight 9000
 	q3map_backSplash 18 23
+	q3map_lightSubdivide 10
 	q3map_lightmapFilterRadius 0 20
 	{
 		diffuseMap textures/arachnid2_custom_src/neon_white_d
@@ -61,6 +63,7 @@ textures/arachnid2_custom/neon_white_very_high
 	q3map_surfaceLight 10000
 	q3map_bounceScale 1.6
 	q3map_backSplash 18 23
+	q3map_lightSubdivide 10
 	q3map_lightmapFilterRadius 0 20
 	{
 		diffuseMap textures/arachnid2_custom_src/neon_white_d
