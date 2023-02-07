@@ -108,7 +108,7 @@ textures/arachnid2_custom/rectanglelight_white_high
 	qer_editorimage textures/arachnid2_custom_src/rectanglelight_white_d
 	q3map_lightImage textures/arachnid2_custom_src/rectangle_light_white_a
 	q3map_surfaceLight 7000
-	q3map_backSplash 25 10
+	q3map_backSplash 5 23
 	q3map_lightmapFilterRadius 0 20
 	{
 		diffuseMap textures/arachnid2_custom_src/rectanglelight_white_d
