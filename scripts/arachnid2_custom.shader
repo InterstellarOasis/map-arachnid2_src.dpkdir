@@ -122,7 +122,7 @@ textures/arachnid2_custom/squarelight_beige
 	qer_editorimage textures/arachnid2_custom_src/squarelight_beige_d
 	q3map_lightRGB .9 .9 .8
 	q3map_surfaceLight 12000
-	q3map_backSplash 10 23
+	q3map_backSplash 5 19
 	q3map_lightmapFilterRadius 0 20
 	{
 		diffuseMap textures/arachnid2_custom_src/squarelight_beige_d
@@ -148,7 +148,7 @@ textures/arachnid2_custom/squarelight_beige_high
 	qer_editorimage textures/arachnid2_custom_src/squarelight_beige_d
 	q3map_lightRGB .9 .9 .8
 	q3map_surfaceLight 50000
-	q3map_backSplash 12 30
+	q3map_backSplash 5 19
 	q3map_lightmapFilterRadius 0 20
 	{
 		diffuseMap textures/arachnid2_custom_src/squarelight_beige_d
