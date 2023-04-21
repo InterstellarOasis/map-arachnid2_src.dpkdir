@@ -9,7 +9,7 @@ This port is an Interstellar Oasis initiative: [github.com/InterstellarOasis/Int
 
 ## Levelshot
 
-![Levelshot](meta/arachnid2/arachnid2_web.jpg)
+![Levelshot](meta/arachnid2/arachnid2.webp)
 
 
 ## How-to
